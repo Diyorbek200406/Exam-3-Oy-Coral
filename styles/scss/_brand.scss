@@ -42,11 +42,13 @@ section#brand .container .joy1 .img-div1 {
   justify-content: center;
   position: relative;
   align-items: center;
+  overflow: hidden;
   .img1 {
     width: 576px;
     height: 407px;
   }
 }
+
 section#brand .container .joy2 .img-div2 {
   background: white;
   width: 308px;
@@ -55,6 +57,7 @@ section#brand .container .joy2 .img-div2 {
   justify-content: center;
   align-items: center;
   position: relative;
+  overflow: hidden;
   .img2 {
     width: 268px;
     height: 210px;
@@ -68,6 +71,7 @@ section#brand .container .joy2 .img-div3 {
   justify-content: center;
   align-items: center;
   position: relative;
+  overflow: hidden;
   .img3 {
     width: 268px;
     height: 210px;
@@ -78,6 +82,7 @@ section#brand .container .joy2 .img-div4 {
   width: 308px;
   height: 250px;
   display: flex;
+  overflow: hidden;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -94,6 +99,7 @@ section#brand .container .joy2 .img-div5 {
   justify-content: center;
   align-items: center;
   position: relative;
+  overflow: hidden;
   .img5 {
     width: 268px;
     height: 210px;

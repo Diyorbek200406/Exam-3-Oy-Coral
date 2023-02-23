@@ -206,3 +206,10 @@ let products = [
     rating: { rate: 3.6, count: 145 },
   },
 ];
+let btn = document.querySelector("#button");
+
+btn.addEventListener("click", () => {
+  alert("Mahsulotlarni ko'rib chiqing");
+});
+
+
