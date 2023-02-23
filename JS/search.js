@@ -269,3 +269,22 @@ console.log(filter);
 console.log(products);
 
 // search
+
+const search = () => {
+  const searchBox = document.getElementById("input").value.toUpperCase();
+  const storeItems = document.getElementById("product-list");
+  const product = document.querySelectorAll(".col-md-4");
+
+  for (let i = 0; i < products.title.length; i++) {
+    let match = product[i].getElementsByTagName(products.title[0]);
+
+    if (match) {
+      let textValue = match.textContent || match.innerHTML;
+      if (textValue.toUpperCase().indexOf(searchBox) - 1) {
+        product[i].style.display = "";
+      } else {
+        product[i].style.display = "none";
+      }
+    }
+  }
+};
