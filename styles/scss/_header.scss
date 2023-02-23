@@ -1,0 +1,57 @@
+header .container {
+  background-color: #fff;
+  aspect-ratio: 18/1;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.412);
+  margin-bottom: 10px;
+}
+
+header {
+  position: fixed;
+  background-color: #fff;
+  z-index: 999;
+}
+
+header .container .logo {
+  width: 30%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+header .container .logo h1 a {
+  font-size: 30px;
+  color: red;
+}
+
+header .container .navbar {
+  width: 70%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+header .container .navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+header .container .navbar ul li a {
+  font-size: 17px;
+  color: black;
+  text-transform: capitalize;
+  span {
+    padding-right: 8px;
+  }
+}
+
+header .container .navbar ul li a:hover {
+  background-color: lime;
+  color: white;
+  border-radius: 50px;
+}

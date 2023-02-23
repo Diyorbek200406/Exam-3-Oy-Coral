@@ -1,0 +1,44 @@
+section#showcase {
+  background-color: white;
+}
+
+section#showcase .container {
+  background-color: white;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 180px;
+}
+
+section#showcase .container .left {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+section#showcase .container .left .harf {
+  h1 {
+    font-size: 70px;
+    padding: 20px 0;
+    font-weight: 400;
+  }
+  p {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  button {
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+  }
+}
+section#showcase .container .right {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
