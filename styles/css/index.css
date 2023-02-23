@@ -4,7 +4,6 @@
   padding: 0;
   scroll-behavior: smooth;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 body {
@@ -54,6 +53,8 @@ header {
   position: fixed;
   background-color: #fff;
   z-index: 999;
+  top: 0;
+  left: 0;
 }
 
 header .container .logo {
